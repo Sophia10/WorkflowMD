@@ -31,15 +31,18 @@
 ##The GitGui workflow happens in five steps:
 Every step is performed by pushing the respective button in GitGui.
 
-1. **Rescan**: changed files are listed in *Unstaged Changes*. They can be previewed in the yellow window.
-
+1. **Rescan**: changed files are listed in *Unstaged Changes*. They can be previewed in the yellow window. 
 ![Screenshot Rescan] (Screenshot2.png)
-
-1. **Stage Changed**: chose files to be committed. Those will be listed in *Staged Changes (Will Commit)*
-1. **Sign Off**: add message to comment changes
+1. **Stage Changed**: chose files to be committed. Those will be listed in *Staged Changes (Will Commit)*  
+![Screenshot Stage Changed] (Screenshot3.png)
+1. **Sign Off**: add message to comment changes  
+![Screenshot Sign Off] (Screenshot4.png)
 1. **Commit**: commit changes (=add them to the git timeline)
-1. **Push**: synchronize files with server you connected earlier
-Be happy about the **Success** message. :)
+1. **Push**: synchronize files with server you connected earlier  
+![Screenshot Push] (Screenshot5.png)
+
+Be happy about the **Success** message. :)   
+![Screenshot Success] (Screenshot6.png)
 
 ##How to handle versions
 * When a change was made, do the GitGui workflow
