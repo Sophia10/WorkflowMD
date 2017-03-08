@@ -48,13 +48,13 @@ Be happy about the **Success** message. :)
 * When a change was made, do the GitGui workflow
 * After the changes were committed, they can be viewed as version in GitGui
   * Go to Repository > Visualize master's history
-  * All versions can be compared and the master is shown in green
+  * All versions can be compared and the master is shown in green   
   ![Screenshot history](Screenshot1.png)
 * In GitHub, commits can be viewed in the repository (Code > *Commits*)
 * Versions can be compared and restored
 * Only changes between versions are saved, not the complete file
 
-##How to use Markup language
+##How to use Markdown
 * Read a documentation: [Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * Put three or more spaces after a line to create a line break to the next line
 * HTML code can be used
