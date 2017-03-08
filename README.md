@@ -1,6 +1,7 @@
 #How to use Markdown and Git(Hub)
 Markdown (.md)  is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name. ([Wikipedia](https://en.wikipedia.org/wiki/Markdown))
 ##Make a Git
+###On your computer
 * Compose a new folder on your computer e.g. *WorkflowMD*
 * Use Notepad++ to make a new .md file (save as *All types *.* *) called README.md
 * Open GitGui
@@ -9,6 +10,22 @@ Markdown (.md)  is a lightweight markup language with plain text formatting synt
   * insert your user name and mail address
   * change the *Default File Contents Encoding:* to utf-8
   * *Save* your changes
-##The GitGui consists of four window parts:
-1. Unstaged Changes: when one clicks on *Rescan*, changed files are listed here
-1. 
+###On a server (GitHub)
+* create an account on [github.com](www.github.com)
+* create a new repository eg. *WorkflowMD*
+###Connect server and computer
+* In the GitGui go to Remote > Add Remote
+* Enter the name and URL of your GitHub repository
+* Click *Add*
+##The GitGui workflow happens in five steps:
+1. **Rescan**: changed files are listed in *Unstaged Changes*. They can be previewed in the yellow window.
+1. **Stage Changed**: chose files to be committed. Those will be listed in *Staged Changes (Will Commit)*
+1. **Sign Off**: add message to comment changes
+1. **Commit**: commit changes (=add them to the git timeline)
+1. **Push**: synchronize files with server you connected earlier
+Be happy about the **Success** message
+
+##How to handle versions
+* When a change was made, do the GitGui workflow
+* After the changes were committed, they can be viewed as version in GitGui
+  * 
