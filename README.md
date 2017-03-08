@@ -53,3 +53,8 @@ Be happy about the **Success** message. :)
 * In GitHub, commits can be viewed in the repository (Code > *Commits*)
 * Versions can be compared and restored
 * Only changes between versions are saved, not the complete file
+
+##How to use Markup language
+* Read a documentation: [Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* Put three or more spaces after a line to create a line break to the next line
+* HTML code can be used
